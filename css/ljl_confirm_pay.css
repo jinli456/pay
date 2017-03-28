@@ -1,0 +1,476 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ljl_top{
+	width: 1200px;
+	height:48px;
+	margin: 0 auto;
+	margin-top:26px;
+	border-bottom: 2px solid #ffc22e;
+}
+.ljl_top .ljl_left{
+	float: left;
+	color: #333;
+	font-size: 18px;
+	line-height: 48px;
+	margin-left: 29px;
+}
+.ljl_top .ljl_right{
+	float: right;
+	color: #161616;
+	font-size: 14px;
+}
+.ljl_top .ljl_right .ljl_tap {
+	padding:6px 30px;
+	float: left;
+}
+.ljl_top .ljl_right .ljl_tap.active{
+	background-image: url(../img/ljl_confirm_pay/yellow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+}
+.ljl_top .ljl_right .ljl_tap {
+	background-image: url(../img/ljl_confirm_pay/gray.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100% 27px;
+}
+/*确认订单信息*/
+.ljl_Seller_down {
+	width: 1200px;
+	height: 640px;
+	margin: 0 auto;
+}
+
+.ljl_order_detail{
+	margin-left: 12px;
+	margin-top: 23px;
+	margin-bottom: 11px;
+	font-size: 16px;
+	color:#161616;
+}
+.ljl_order_detail span{
+	display: inline-block;
+	width: 2px;
+	height: 10px;
+	margin-right:5px;
+	background: #18a5f2;
+}
+/*商品信息*/
+.ljl_goods_box_information {
+	box-sizing: border-box;
+	margin-top: 20px;
+	width: 1200px;
+	height: 214px;
+	border: 1px solid #ffb90e;
+}
+.ljl_goods_title_box {
+	padding: 0;
+	height: 34px;
+	background: #ffb90e;
+}
+.ljl_remark{
+	font-size: 14px;
+	color: #161616;
+	margin-left: 39px;
+
+}
+.ljl_goods_information {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	/*text-align: center;*/
+	padding-left: 150px;
+	box-sizing: border-box;
+	width: 40%;
+}
+.ljl_goods_price {
+	width: 11.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.ljl_goods_num {
+	width: 11.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.ljl_goods_coupons {
+	width: 11.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.ljl_goods_state {
+	width: 11.5%;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.ljl_goods_fare{
+	width:10% ;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+}
+.ljl_goods_box_content {
+	height: 140px;
+	padding: 0;
+}
+.ljl_goods_content_img_box {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+.ljl_goods_content_img {
+	float: left;
+	width: 101px;
+	height: 101px;
+	margin-left: 23px;
+	margin-top: 18px;
+	background: pink;
+}
+.ljl_goods_content_img a{
+	display: block;
+}
+.ljl_goods_content_text {
+	float: left;
+	height:100%;
+	width: 200px;
+	box-sizing: border-box;
+	padding: 18px 0;
+}
+.ljl_goods_desci_text {
+	margin: 0;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 22px;
+}
+.ljl_goods_content_zi{
+	float: left;
+	height:100%;
+	width: 140px;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.ljl_goods_size {
+	margin: 0;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 22px;
+	margin-top: 18px;
+}
+.ljl_goods_color {
+	margin: 0;
+	font-size: 14px;
+	color: #161616;
+	box-sizing: border-box;
+	padding-left: 22px;
+	margin-top: 0px;
+}
+.ljl_goods_content_price {
+	float: left;
+	width: 11.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.ljl_goods_content_num {
+	float: left;
+	width: 11.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.ljl_goods_content_coupons {
+	float: left;
+	width: 11.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.ljl_goods_content_state {
+	float: left;
+	width: 11.5%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.ljl_goods_content_fare {
+	float: left;
+	width: 10%;
+	height: 136px;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+	color: #161616;
+}
+.ljl_fact{
+	width: 100%;
+	height: 16px;
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
+.ljl_fact span{
+	color: #cd2422;
+}
+.ljl_logistics{
+	width: 558px;
+	margin-top: 20px;
+	margin-left: 28px;
+	font-size: 14px;
+	color: #161616;
+	float: left;
+}
+.ljl_logistics .ljl_logistics_one{
+	width: 100%;
+	height: 16px;
+	margin-bottom: 12px;
+}
+.ljl_logistics_one .ljl_detail_chat{
+	background: #56cdfc;
+	font-size: 12px;
+	margin-left: 10px;
+	padding:2px 6px;
+	display: block;
+	float: left;
+}
+.ljl_logistics_one .ljl_qq{
+	display: block;
+	float: left;
+	margin-left:5px;
+}
+.ljl_logistics_one span{
+	display: block;
+	float: left;
+}
+.ljl_logistics_one img{
+	width: 17px;
+	height: 19px;
+	line-height: 20px;
+}
+.ljl_pay_box{
+	width: 547px;
+	height: 200px;
+	border:2px solid #febf19;
+	margin-top: 33px;
+	font-size: 14px;
+	float: left;
+}
+.ljl_pay_box .ljl_pay_tip{
+	color: #dd0000;
+	margin-left: 30px;
+	margin-top: 27px;
+}
+.ljl_pay_box .ljl_pay_input{
+	margin-left: 38px;
+	height:50px;
+	margin-top: 24px;
+	line-height: 30px;
+	/*background: pink;*/
+
+}
+.ljl_pay_input .ljl_pay_zi{
+	margin-right: 16px;
+	line-height: 50px;
+	float: left;
+}
+
+.ljl_pay_input .ljl_pay_big .ljl_pay_error{
+	width: 105px;
+	height: 27px;
+	position:absolute ;
+	left:130px;
+	top:-25px;
+}
+.ljl_pay_error img{
+	width: 105px;
+	height: 27px;
+}
+
+.ljl_pay_big{
+	width: 190px;
+	height: 30px;
+	border:1px solid #ccc;
+	margin-right: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+	position: relative;
+	display: block;
+	float: left;
+}
+.ljl_pay_big input.ljl_paw {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: -9px;
+	border:none;
+	border-right: 1px dashed #ccc;
+	text-align: center;
+}
+.ljl_pay_big input.ljl_paw:nth-child(1){
+	margin-left: 0;
+}
+.ljl_pay_big .ljl_pawDiv:nth-child(6) input.ljl_paw {
+	border-right: none;
+}
+.ljl_pay_big input.ljl_paw:focus{outline:0;}
+.ljl_pay_big .ljl_pawDiv {
+	/*display: inline-block;*/
+	display: block;
+	line-height: 30px;
+	width: 31px;
+	height: 31px;
+	margin-top: -2px;
+	float: left;
+}
+
+.ljl_pay_input .ljl_pay_forget{
+	display: block;
+	height: 26px;
+	line-height: 50px;
+	font-size: 12px;
+	color: #47ADCC;
+	float: left;
+}
+.ljl_pay_sure{
+	width: 100%;
+	height:32px;
+	margin-top: 20px;
+}
+.ljl_pay_sure .ljl_pay_confirm{
+	width: 96px;
+	height: 100%;
+	margin: 0 auto;
+	background: #febe1a;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.ljl_pay_confirm a{
+	color:#fff;
+}
+/*弹框*/
+.ljl_mask{
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.ljl_bomb{
+	width: 423px;
+	height: 376px;
+	background: url(../img/ljl_pay/box.png) center no-repeat;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	margin: auto;
+}
+.ljl_bomb .ljl_correct{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	left:0;
+	right:0;
+	margin: auto;
+	top:28px;
+}
+.ljl_correct img{
+	width: 74px;
+	height: 74px;
+}
+.ljl_bomb .ljl_success{
+	width: 100%;
+	height: 52px;
+	font-size: 30px;
+	margin-top: 122px;
+	color: #ffb500;
+	line-height: 52px;
+	text-align: center;
+}
+.ljl_bomb .ljl_received{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #7b7b7b;
+}
+.ljl_bomb .ljl_bomb_bottom{
+	width: 270px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 36px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+.ljl_bomb_bottom .ljl_bomb_look,.ljl_bomb_bottom .ljl_bomb_back{
+	width: 110px;
+	height: 100%;
+	background: #ffc22e;
+	border-radius: 5px;
+	float: left;
+
+}
+.ljl_bomb_bottom .ljl_bomb_look{
+	margin-right:42px ;
+}
+.ljl_bomb_bottom .ljl_bomb_back{
+	border:2px solid #ffc22e;
+	background: #fff;
+	box-sizing: border-box;
+	line-height: 36px;
+}
+.ljl_bomb_bottom .ljl_bomb_look a{
+	color: #fff;
+}
+.ljl_bomb_bottom .ljl_bomb_back a{
+	color:#161616;
+}
